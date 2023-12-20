@@ -5,7 +5,6 @@
 
     <!-- 商品 Item 项组件 -->
     <cart-item v-for="item in list" :key="item.id" :item="item"></cart-item>
-
     <!-- Foote 区域 -->
     <cart-footer></cart-footer>
   </div>
